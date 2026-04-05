@@ -1,0 +1,43 @@
+name: Weekly Summary Generator
+
+on:
+  schedule:
+    # 2:30 PM UTC = 8:00 PM IST, every Sunday
+    - cron: "30 14 * * 0"
+  workflow_dispatch: # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  generate-summary:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate weekly summary
+        run: python scripts/weekly_summary.py
+
+      - name: Also refresh README stats
+        run: python scripts/update_readme.py
+
+      - name: Commit and push summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add summaries/ README.md
+          if git diff --staged --quiet; then
+            echo "No changes — skipping commit"
+          else
+            git commit -m "📋 Weekly summary — week of $(date +'%Y-%m-%d')"
+            git push
+          fi
