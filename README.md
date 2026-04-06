@@ -12,13 +12,13 @@
 ### 🧩 LeetCode Progress
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | 0 |
+| 🟢 Easy | 1 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **0** |
+| **Total** | **1** |
 
-**Target:** 0 / 200 problems  
-`░░░░░░░░░░░░░░░░░░░░` 0.0%
+**Target:** 1 / 200 problems  
+`░░░░░░░░░░░░░░░░░░░░` 0.5%
 
 🔥 **Current streak:** 0 day(s)  
 ✅ **Last solved:** —
@@ -36,7 +36,7 @@
 
 ---
 
-*🤖 Auto-updated on 2026-04-05 17:56 UTC*
+*🤖 Auto-updated on 2026-04-06 05:36 UTC*
 <!-- STATS:END -->
 
 ---
