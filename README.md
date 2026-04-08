@@ -12,32 +12,33 @@
 ### 🧩 LeetCode Progress
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | 1 |
+| 🟢 Easy | 2 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
-| **Total** | **1** |
+| **Total** | **2** |
 
-**Target:** 1 / 200 problems  
-`░░░░░░░░░░░░░░░░░░░░` 0.5%
+**Target:** 2 / 200 problems  
+`░░░░░░░░░░░░░░░░░░░░` 1.0%
 
 🔥 **Current streak:** 0 day(s)  
-✅ **Last solved:** —
+✅ **Last solved:** 08-04-2025
 
 ---
 
 ### ☁️ Learning Log
 | Metric | Count |
 |---|---|
-| 📝 Total learning entries | 2 |
-| 📅 Entries this week | 2 |
+| 📝 Total learning entries | 3 |
+| 📅 Entries this week | 3 |
 
 **Recent topics:**
+- `2026-04-08` — ## System Design
 - `2026-04-07` — # Node js
 - `2026-04-05` — Getting Started — AWS & AI Learning Path
 
 ---
 
-*🤖 Auto-updated on 2026-04-07 05:23 UTC*
+*🤖 Auto-updated on 2026-04-08 05:24 UTC*
 <!-- STATS:END -->
 
 ---
