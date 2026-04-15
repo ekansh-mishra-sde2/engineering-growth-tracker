@@ -13,12 +13,12 @@
 | Difficulty | Solved |
 |---|---|
 | 🟢 Easy | 4 |
-| 🟡 Medium | 0 |
+| 🟡 Medium | 1 |
 | 🔴 Hard | 0 |
-| **Total** | **4** |
+| **Total** | **5** |
 
-**Target:** 4 / 200 problems  
-`░░░░░░░░░░░░░░░░░░░░` 2.0%
+**Target:** 5 / 200 problems  
+`░░░░░░░░░░░░░░░░░░░░` 2.5%
 
 🔥 **Current streak:** 0 day(s)  
 ✅ **Last solved:** 08-04-2025
@@ -29,7 +29,7 @@
 | Metric | Count |
 |---|---|
 | 📝 Total learning entries | 3 |
-| 📅 Entries this week | 1 |
+| 📅 Entries this week | 0 |
 
 **Recent topics:**
 - `2026-04-08` — ## System Design
@@ -38,7 +38,7 @@
 
 ---
 
-*🤖 Auto-updated on 2026-04-14 05:35 UTC*
+*🤖 Auto-updated on 2026-04-15 05:35 UTC*
 <!-- STATS:END -->
 
 ---
